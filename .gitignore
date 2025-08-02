@@ -1,6 +1,11 @@
 # Local .terraform directories
 .terraform/
 
+# ubuntu keys
+id_ubuntu_resized
+id_ubuntu_resized.pub
+
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
