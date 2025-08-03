@@ -7,4 +7,5 @@ variable "ssh_public_key" {
 variable "libvirt_default_uri" {
   description = "The Default URI used to connect into Qemu"
   type = string
+  default = "qemu:///system"
 }
