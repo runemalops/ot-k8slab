@@ -9,5 +9,5 @@ terraform {
 
 # Configure the Libvirt provider
 provider "libvirt" {
-  uri = "qemu:///system"
+  uri = var.libvirt_default_uri
 }
