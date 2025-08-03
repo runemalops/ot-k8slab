@@ -23,7 +23,7 @@ users:
   - name: ptty2u
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh_authorized_keys:
-      - ${file("id_ubuntu_resized.pub")}
+      - ${var.ssh_public_key}
 
 growpart:
   mode: auto
